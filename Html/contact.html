@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/Css/contact.css" />
+  </head>
+  <body>
+    <div class="topNav">
+      <a class="navLink homeLink" href="index.html">Home</a>
+      <a class="navLink" href="index.html">About</a>
+      <a class="navLink prodLink" href="productions.html">Productions</a>
+      <a class="navLink" href="process.html">Process</a>
+      <a class="navLink resLink" href="resources.html">Resources</a>
+      <a class="navLink contactLink" href="contact.html">Contact</a>
+      <a class="navLink" href="savedForLater.html">Saved</a>
+    </div>
+
+    <div class="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+    </div>
+
+    <svg class="svgBlock" id="filters">
+      <defs>
+        <filter id="threshold">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <div class="contactContainer">
+      <h1 class="contactHeading">Contact</h1>
+      <p class="contactParagraph">Email for enquiries: jbendon97@gmail.com</p>
+    </div>
+
+    <!-- Here is the information to be filled out by users so they can be contacted. -->
+    <div class="contactDetailsContainer">
+      <header class="contactDetails">
+        Fill out this information to contact us:
+      </header>
+      <form>
+        <label class="input" for="fname">First name:</label><br />
+        <input class="input" type="text" id="fname" name="fname" /><br />
+      </form>
+      <form>
+        <label class="input" for="lname">Last name:</label><br />
+        <input class="input" type="text" id="lname" name="lname" />
+      </form>
+
+      <form>
+        <label class="input" for="fname">Contact Number:</label><br />
+        <input class="input" type="text" id="fname" name="fname" /><br />
+      </form>
+      <form>
+        <label class="input" for="lname">Email:</label><br />
+        <input class="input" type="text" id="lname" name="lname" />
+      </form>
+
+      <form>
+        <label class="input" for="fname">Billing Address:</label><br />
+        <input class="input" type="text" id="fname" name="fname" /><br />
+      </form>
+      <form>
+        <label class="input" for="lname">Date of Birth:</label><br />
+        <input class="input" type="text" id="lname" name="lname" />
+        <!-- Below is the submit button required -->
+        <input type="submit" value="Submit" class="submit" />
+      </form>
+    </div>
+
+    <div class="radioContainer"></div>
+    <script src="/Javascript/contact.js"></script>
+  </body>
+</html>

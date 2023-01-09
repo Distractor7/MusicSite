@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJ and Music Production</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Css/styles.css" />
+  </head>
+  <body>
+    <div class="topNav">
+      <a class="navLink homeLink" href="index.html">Home</a>
+      <a class="navLink" href="#about">About</a>
+      <a class="navLink" href="productions.html">Productions</a>
+      <a class="navLink" href="process.html">Process</a>
+      <a class="navLink" href="resources.html">Resources</a>
+      <a class="navLink" href="contact.html">Contact</a>
+      <a class="navLink" href="savedForLater.html">Saved</a>
+    </div>
+
+    <div class="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+    </div>
+
+    <svg class="svgBlock" id="filters">
+      <defs>
+        <filter id="threshold">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 255 -140"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <div id="about" class="aboutContainer">
+      <h1 class="aboutHeader">About</h1>
+      <p class="aboutParagraph">
+        My name is Jordan Bendon, I am 25 years old and I've been deeply
+        interested in music since my father introduced me to The Rolling Stones
+        when I was a young boy.
+        <br />
+        <br />
+        This website is a platform in which I showcase my passion of producing,
+        mixing, collecting and sharing music. This website is a collection of my
+        own creations as well as noteworthy works of others.
+
+        <br />
+        <br />
+        I will also explain my own approach to the creative process of producing
+        music.
+      </p>
+
+      <!-- Below is the quote that was required -->
+      <div class="quoteContainer">
+        <h1 class="quote">
+          "Music is the universal language of mankind - Henry Wadsworth
+          Longfellow"
+        </h1>
+      </div>
+    </div>
+
+    <!-- <div class="whiteBlock">HELLO</div> -->
+
+    <script src="/Javascript/js.js"></script>
+  </body>
+</html>

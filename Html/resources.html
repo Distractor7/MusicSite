@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources</title>
+    <link rel="stylesheet" href="/Css/resources.css" />
+  </head>
+  <body>
+    <div class="topNav">
+      <a class="navLink homeLink" href="index.html">Home</a>
+      <a class="navLink" href="index.html">About</a>
+      <a class="navLink prodLink" href="productions.html">Productions</a>
+      <a class="navLink" href="process.html">Process</a>
+      <a class="navLink resLink" href="resources.html">Resources</a>
+      <a class="navLink" href="contact.html">Contact</a>
+      <a class="navLink" href="savedForLater.html">Saved</a>
+    </div>
+
+    <div class="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+    </div>
+
+    <svg class="svgBlock" id="filters">
+      <defs>
+        <filter id="threshold">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 255 -140"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <div class="resourcesContainer">
+      <h1 class="resourcesHeader">Online Resources</h1>
+      <p class="resourcesParagraph">
+        When it comes to discovering and collecting new and noteworthy music,
+        there are a handful of platforms that I make use of.
+        <a
+          class="spotifyLink"
+          target="_blank"
+          href="https://www.spotify.com/za-en/premium/?utm_source=za-en_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_emea_za_performancemarketing_core_brand+contextual-desktop+text+exact+za-en+google&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkrKoz49D0zA8_cR0Ta3X2jrxgBiydtRExF_AaeAM39WVlgoySu1qaAaAkGZEALw_wcB&gclsrc=aw.ds"
+          >Spotify</a
+        >,
+        <a
+          class="soundcloudLink"
+          target="_blank"
+          href="https://soundcloud.com/discover"
+          >Soundcloud</a
+        >
+        and
+        <a class="bandCampLink" target="_blank" href="https://bandcamp.com/"
+          >Bandcamp</a
+        >
+        are all great online services that allow you to discover, listen,
+        upload, purchase and share music.
+        <div class="imagesDiv">
+          <p>
+            <!-- Below are the images that were required -->
+        <img
+          class="inlineImgs"
+          src="/Images/soundcloud.jpg"
+          alt="soundCloudLogo"
+          height="300px"
+          width="450px"
+        />
+        <img
+          class="inlineImgs"
+          src="/Images/spotifyImg.jpg"
+          alt="soundCloudLogo"
+          height="300px"
+          width="520px"
+        />
+      </p>
+      </p>
+    </div>
+    
+      <p class="resourcesParagraph">
+        On Spotify, I mainly discover new music and create my own playlists of
+        particular styles of music I'm interested in. I have included a list of links to some of my custom made playlists.
+        <ul class="playlistList">
+          <li class="listItems">Cherchez La Ghost (Alternative Rock Playlist)
+            <iframe  class="embdedPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/26sHzx5opnsGFDF32N3Qg4?utm_source=generator" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></a></li>
+          <li class="listItems">When the children dance (Ambient and Experimental)
+            <iframe class="embdedPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2si9PmNXEeDjdSisUYTBwX?utm_source=generator" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></a></li>
+          <li class="listItems">League of their own (Mixture of electronic)
+            <iframe class="embdedPlaylist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0vXv9d2jyMivNKcnwbKxe3?utm_source=generator" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </a></li>
+          <li class="listItems">The Tribalist (Hard Techno)<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7ppsoAWUoxCSCdeiVQwmjc?utm_source=generator" width="100%" height="380" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></li>
+        </ul>
+      </p>
+    </div>
+
+    <!-- Below is the table required. -->
+    <div class="tableContainer">
+      <h1 class="tableHeader">I've made a table of some of my most inspiring music artists below</h1>
+        <table>
+          <tr>
+            <th>Artist</th>
+            <th>Genre</th>
+            <th>Country of Origin</th>
+          </tr>
+          <tr>
+            <td>Massive Attack</td>
+            <td>Trip Hop</td>
+            <td>England  <button id="save" class="saveButton">Save</button></td>
+          </tr>
+          <tr>
+            <td>Pink Floyd</td>
+            <td>Rock</td>
+            <td>England  <button id="save" class="saveButton" >Save</button></td>
+          </tr>
+          <tr>
+            <td>The Prodigy</td>
+            <td>Electronic</td>
+            <td>England  <button id="save" class="saveButton">Save</button></td>
+          </tr>
+          <tr >
+            <td>Rene Wise</td>
+            <td>Techno</td>
+            <td>England  <button id="save" class="saveButton">Save</button></td>
+          </tr>
+          <tr>
+            <td>DVS1</td>
+            <td>Techno</td>
+            <td>The United States of America  <button id="save" class="saveButton">Save</button></td>
+          </tr>
+          <tr>
+            <td>Khuarangbin</td>
+            <td>Rock</td>
+            <td>The United States of America  <button id="save" class="saveButton">Save</button></td>
+          </tr>
+          <tr>
+            <td>The Smiths</td>
+            <td>Rock</td>
+            <td>England  <button id="save"class="saveButton">Save</button></td>
+          </tr>
+          <tr>
+            <td>Artefakt</td>
+            <td>Electronic</td>
+            <td>The Netherlands  <button id="save" class="saveButton">Save</button></td>
+          </tr>
+        </table>
+    </div>
+    <script src="/Javascript/resources.js"></script>
+  </body>
+</html>

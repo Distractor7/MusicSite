@@ -1,0 +1,223 @@
+/* Below is are the styles for the landing page */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* background-color: #dbfa3d; */
+  margin: 0px;
+  padding: 0px;
+}
+/* Landing Page */
+.heading {
+  font-size: 80px;
+  margin-left: 12%;
+  margin-top: 2%;
+  font-weight: 100;
+}
+
+/*I used some code for animations for the home page and edited to my own needs */
+/* https://codepen.io/alvarotrigo/pen/eYEqPZa */
+.container {
+  position: relative;
+  margin: auto;
+  width: 100vw;
+  height: 80pt;
+  top: 300px;
+  bottom: 0;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 80pt;
+  text-align: center;
+  user-select: none;
+}
+
+.topNav {
+  color: rgb(0, 0, 0);
+  margin: 40px;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #dbfa3d;
+  padding-top: 200px;
+  padding-bottom: 250px;
+  top: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  /* margin-right: 50px; */
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
+  margin-right: -10px;
+}
+
+.navLink:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+.navLink:not(hover) {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+/* .homeLink {
+      background-color: rgb(51, 51, 51);
+      padding: 40px;
+      color: white;
+    } */
+
+/* .homeLink:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      transition: 1s;
+    }
+    
+    .homeLink:not(:hover) {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      transition: 1s;
+    } */
+
+.aboutContainer {
+  width: auto;
+  position: absolute;
+  margin: 50px;
+  padding-bottom: 100px;
+  margin-left: 100px;
+  top: 650px;
+}
+
+.aboutHeader {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+.aboutParagraph {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 50px;
+  width: 1200px;
+  line-height: 1.4;
+}
+
+.resLink {
+  background-color: rgb(51, 51, 51);
+  padding: 40px;
+  color: white;
+}
+
+.resLink:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.resLink:not(:hover) {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+.resourcesContainer {
+  width: auto;
+  position: absolute;
+  margin: 50px;
+  padding-bottom: 100px;
+  margin-left: 100px;
+  top: 650px;
+}
+
+.resourcesHeader {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+/* Below the text with backgrounds that were required. */
+.resourcesParagraph {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 50px;
+  width: 1200px;
+  line-height: 1.4;
+  background-color: rgba(212, 212, 212, 0.235);
+  padding: 30px;
+}
+
+.soundCloudLogo {
+  margin: 100px;
+}
+
+.playlistList {
+  margin: 80px;
+}
+
+.listItems {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.embededPlaylist {
+  margin-top: 50px;
+}
+
+.inlineImgs {
+  margin: 70px;
+}
+
+li {
+  margin: 40px;
+  margin-left: 0px;
+}
+
+iFrame {
+  margin: 20px;
+}
+
+.tableContainer {
+  margin: 80px;
+  margin-top: 3000px;
+}
+
+table,
+td {
+  border: solid black;
+  width: 1300px;
+  /* margin: 70px; */
+}
+
+td {
+  padding: 50px;
+}
+
+.tableHeader {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+
+.saveButton {
+  padding: 20px;
+  margin-left: 40px;
+}

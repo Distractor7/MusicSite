@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Process</title>
+    <link rel="stylesheet" href="/Css/process.css" />
+  </head>
+  <body>
+    <div class="topNav">
+      <a class="navLink homeLink" href="index.html">Home</a>
+      <a class="navLink" href="index.html">About</a>
+      <a class="navLink prodLink" href="productions.html">Productions</a>
+      <a class="navLink processLink" href="process.html">Process</a>
+      <a class="navLink" href="resources.html">Resources</a>
+      <a class="navLink" href="contact.html">Contact</a>
+      <a class="navLink" href="savedForLater.html">Saved</a>
+    </div>
+
+    <div class="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+    </div>
+
+    <svg class="svgBlock" id="filters">
+      <defs>
+        <filter id="threshold">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 255 -140"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <div class="aboutContainer">
+      <h1 class="processHeader">Process</h1>
+      <p class="processParagraph">
+        When it comes to music production. I work with a DAW, which stands for
+        "Digital Audio Workspace". In particular I work with
+        <!-- Below are the exteral links required -->
+        <a
+          class="abletonLink"
+          target="_blank"
+          href="https://www.ableton.com/en/"
+          >Ableton</a
+        >
+        Live Suite 11. This is a fully integrated studio software that allows
+        you to create complex musical arrangements with both virtual instruments
+        and by running your own hardware through the program. I also typically
+        make use of a midi controller key board and beat pad, which is an
+        external instrument that you can use to create percussion and melodies
+        through. There are many more types of external instruments and midi
+        controllers that can be used in creating music through Ableton Live. I
+        can't wait to get my hands on a few instruments in particular; in time.
+      </p>
+      <img
+        class="abletonLogo"
+        src="/Capstone Project/Images/abletonLogo.jpg"
+        alt="abletonLogo"
+        height="450px"
+        width="650px"
+      />
+
+      <p class="processParagraph">
+        When it comes to mixing, I use
+        <!-- Below are the exteral links required -->
+        <a class="seratoLink" target="_blank" href="https://serato.com/dj"
+          >Serato</a
+        >
+        DJ pro, which is a virtual DJ mixing software usually used in
+        combination with an external DJ controller, CDJ's or another form of
+        music mixing hardware. This software allows you to mix and live edit
+        multiple audio files.
+      </p>
+      <!-- Below are the images that were required -->
+      <img
+        class="seratoLogo"
+        src="/Capstone Project/Images/seratoLogo.jpg"
+        alt="abletonLogo"
+        height="450px"
+        width="950px"
+      />
+
+      <p class="processParagraph">
+        Finally, I also play guitar and drums. These days, I play those
+        instruments for my own enjoyment and havent recorded much with them. But
+        I really woould like to play more and record more instrumentals
+      </p>
+
+      <img
+        class="seratoLogo"
+        src="/Capstone Project/Images/drums.jpg"
+        alt="abletonLogo"
+        height="450px"
+        width="950px"
+      />
+    </div>
+
+    <!-- Below is the radio form required -->
+    <div class="radioContainer">
+      <p class="radioQs">What would you like to read more about?</p>
+      <input
+        class="answers"
+        type="radio"
+        id="html"
+        name="fav_language"
+        value="HTML"
+      />
+      <label class="answers" class="answers" for="html">Ableton</label><br />
+      <input
+        class="answers"
+        type="radio"
+        id="css"
+        name="fav_language"
+        value="CSS"
+      />
+      <label class="answers" for="css">Serato</label><br />
+      <input
+        class="answers"
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label class="answers" for="javascript">Other production softwares</label>
+    </div>
+
+    <script src="/Javascript/process.js"></script>
+  </body>
+</html>
